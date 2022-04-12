@@ -59,6 +59,7 @@ GFE默认会添加支持串流的游戏，并且可以添加任何程序
 ### 1）远程开机
 不在家中，想要远程家中电脑，则需要电脑保持开机状态。远程电脑一直开机的话浪费资源，因此有了远程开机需求，做到随用随开。
 远程开机可以使用路由器的Wake-On-Lan(WOL)功能（不是所有路由器都支持！），或者使用小米智能插座等硬件实现，方法不唯一。本教程选择WOL功能，配合华硕路由器实现。
+
 1.配置方法如下：
 - 参考![DDNSTO][https://github.com/sheldonl3/Playing-strategy/DDNSTO]教程，完成路由器内网穿透，做到在外网中可以访问家中路由器。
 - 在主机的BIOS中开启WOL选项（根据自己主板厂商型号设置）
@@ -67,6 +68,7 @@ GFE默认会添加支持串流的游戏，并且可以添加任何程序
 ![](https://github.com/sheldonl3/Playing-strategy/blob/master/Moonlight_Config/网卡.png)
 
 2.使用方法
+
 进入路由器界面，选择“网络工具-通过网络（lan）唤醒”，添加主机，点击唤醒按钮
 ![](https://github.com/sheldonl3/Playing-strategy/blob/master/Moonlight_Config/wol.png)
 

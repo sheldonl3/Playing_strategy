@@ -1,5 +1,5 @@
 # DDNSTO_NAT
-# 使用[ddnsto](https://www.ddnsto.com/)进行内网穿透包
+# 使用[DDNSTO](https://www.ddnsto.com/)进行内网穿透
 
 
 ## 教程包括基本的路由器管理页面穿透和进阶的Download_Master页面穿透2部分（本教程使用RT-AX86U 梅林改版固件进行说明） [教程参考](https://doc.linkease.com/zh/guide/ddnsto/#%E5%AE%89%E8%A3%85%E4%B8%89%E6%AD%A5%E8%B5%B0)

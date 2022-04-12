@@ -61,7 +61,7 @@ GFE默认会添加支持串流的游戏，并且可以添加任何程序
 远程开机可以使用路由器的Wake-On-Lan(WOL)功能（不是所有路由器都支持！），或者使用小米智能插座等硬件实现，方法不唯一。本教程选择WOL功能，配合华硕路由器实现。
 
 1.配置方法如下：
-- 参考![DDNSTO][https://github.com/sheldonl3/Playing-strategy/DDNSTO]教程，完成路由器内网穿透，做到在外网中可以访问家中路由器。
+- 参考![DDNSTO](https://github.com/sheldonl3/Playing-strategy/DDNSTO)教程，完成路由器内网穿透，做到在外网中可以访问家中路由器。
 - 在主机的BIOS中开启WOL选项（根据自己主板厂商型号设置）
 - 在网卡的属性-电源管理中开启“允许此设备唤醒计算机”
 
@@ -74,7 +74,7 @@ GFE默认会添加支持串流的游戏，并且可以添加任何程序
 
 ### 2）无需显示器开机
 远程开机后，显卡需要有显示器接入才能有信号输出，如果不接显示器串流时会黑屏。
-可以在显卡接口插显卡欺骗器来解决
+可以在显卡接口插显卡欺骗器来解决（某宝10块左右）
 ![](https://github.com/sheldonl3/Playing-strategy/blob/master/Moonlight_Config/显卡欺骗器.png)
 
 ## 五、问题解决

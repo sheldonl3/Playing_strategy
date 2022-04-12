@@ -90,6 +90,7 @@ GFE默认会添加支持串流的游戏，并且可以添加任何程序
 
 ### 3）画面卡死、游戏闪退
 排除网络带宽问题，将Windows的GPU硬件加速关闭。  
+此选项开启时，串流的GPU使用率极高，关闭后则正常。  
 ![](https://github.com/sheldonl3/Playing-strategy/blob/master/Moonlight_Config/GPU加速.png)
 
 

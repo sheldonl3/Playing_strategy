@@ -2,7 +2,7 @@
 # 使用[DDNSTO](https://www.ddnsto.com/)进行内网穿透
 
 
-## 教程包括基本的路由器管理页面穿透和进阶的Download_Master页面穿透2部分（本教程使用RT-AX86U 梅林改版固件进行说明） [教程参考](https://doc.linkease.com/zh/guide/ddnsto/#%E5%AE%89%E8%A3%85%E4%B8%89%E6%AD%A5%E8%B5%B0)
+## 教程包括基本的路由器管理页面穿透和进阶的Download_Master页面穿透2部分（本教程使用RT-AX86U 梅林改版固件进行说明）
 
 ## 一、系统要求和前期准备
 - 支持DDNSTO插件的路由器，可以刷固件之后进行安装
@@ -31,3 +31,5 @@
 ### 3.如果使用https穿透后Download_Master自动跳转会出现问题，所以需要自己补齐链接，假如路由器的IP是192.168.50.11，并且绑定了域名https://download.kooldns.cn/ ,但这个链接是不能访问的！！！需要在链接后加上 /Main_Login.asp 也就是说完整链接为：https://download..ddnsto.com/Main_Login.asp
 ### 用HTTP协议访问可以忽略上面的这个问题：http://download.kooldns.cn:5000/ 这个就可以直接访问了，不需要手动补齐
 ### 4.成功添加后请稍等1分钟左右，通过访问绑定的域名即可访问。
+
+#### [本教程参考](https://doc.linkease.com/zh/guide/ddnsto/#%E5%AE%89%E8%A3%85%E4%B8%89%E6%AD%A5%E8%B5%B0)

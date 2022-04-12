@@ -84,5 +84,13 @@ GFE默认会添加支持串流的游戏，并且可以添加任何程序
 - 在moonlight中，点击“+”号，添加最新的IP，即完成IP更新工作。（效果不是又加一台电脑，而是更新旧电脑的IP,无需再次GFE配对）。
 ![](https://github.com/sheldonl3/Playing-strategy/blob/master/Moonlight_Config/更新IP.png)
 
+### 2）开机后无法连接
+配置都正确的前提下，开机后无法连接，主机卡在Windows登录界面。  
+推测主机没有登录的情况下，某些Nvidia进程没有启动导致。目前只能改为本地账户，取消开机密码来解决。
+
+### 3）画面卡死、游戏闪退
+排除网络带宽问题，将Windows的GPU硬件加速关闭。  
+![](https://github.com/sheldonl3/Playing-strategy/blob/master/Moonlight_Config/GPU加速.png)
+
 
 内容参考moonlight文档和[b站专栏](https://www.bilibili.com/read/cv6333264?from=search)

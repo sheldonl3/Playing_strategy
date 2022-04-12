@@ -63,6 +63,7 @@ GFE默认会添加支持串流的游戏，并且可以添加任何程序
 - 参考![DDNSTO][https://github.com/sheldonl3/Playing-strategy/DDNSTO]教程，完成路由器内网穿透，做到在外网中可以访问家中路由器。
 - 在主机的BIOS中开启WOL选项（根据自己主板厂商型号设置）
 - 在网卡的属性-电源管理中开启“允许此设备唤醒计算机”
+
 ![](https://github.com/sheldonl3/Playing-strategy/blob/master/Moonlight_Config/网卡.png)
 
 2.使用方法

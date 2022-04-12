@@ -93,5 +93,8 @@ GFE默认会添加支持串流的游戏，并且可以添加任何程序
 此选项开启时，串流的GPU使用率极高，关闭后则正常。  
 ![](https://github.com/sheldonl3/Playing-strategy/blob/master/Moonlight_Config/GPU加速.png)
 
+### 4）其他问题
+可以去[discord](https://moonlight-stream.org/discord)的moonlight社区去问，那里有热心老外给你解答。  
 
-内容参考moonlight文档和[b站专栏](https://www.bilibili.com/read/cv6333264?from=search)
+
+部分内容参考moonlight文档和[b站专栏](https://www.bilibili.com/read/cv6333264?from=search)

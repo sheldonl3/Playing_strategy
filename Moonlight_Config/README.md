@@ -75,6 +75,14 @@ GFE默认会添加支持串流的游戏，并且可以添加任何程序
 可以在显卡接口插显卡欺骗器来解决（某宝10块左右）  
 ![](https://github.com/sheldonl3/Playing-strategy/blob/master/Moonlight_Config/显卡欺骗器.png)
 
+
 ## 五、问题解决
+### 1）公网IP更新
+有时已经通过远程开机将主机打开，但是在moonlight中显示未开机，有可能是家中IP发生变化。需要在moonlight中更新主机的IP信息。  
+- 通过DDNSTO的控制台可以方便的查看最新IP。  
+![](https://github.com/sheldonl3/Playing-strategy/blob/master/Moonlight_Config/外网IP.png)
+- 在moonlight中，点击“+”号，添加最新的IP，即完成IP更新工作。（效果不是又加一台电脑，而是更新旧电脑的IP,无需再次GFE配对）。
+![](https://github.com/sheldonl3/Playing-strategy/blob/master/Moonlight_Config/更新IP.png)
+
 
 内容参考moonlight文档和[b站专栏](https://www.bilibili.com/read/cv6333264?from=search)

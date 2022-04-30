@@ -98,3 +98,6 @@ GFE默认会添加支持串流的游戏，并且可以添加任何程序
 
 
 部分内容参考moonlight文档和[b站专栏](https://www.bilibili.com/read/cv6333264?from=search)
+
+### 5）未解决的问题
+#### （1）如何通过公网同时远程多台电脑

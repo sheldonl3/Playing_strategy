@@ -93,7 +93,7 @@ GFE默认会添加支持串流的游戏，并且可以添加任何程序
 此选项开启时，串流的GPU使用率极高，关闭后则正常。  
 ![](https://github.com/sheldonl3/Playing-strategy/blob/master/Moonlight_Config/GPU加速.png)
 
-### 4）画面周期性卡顿
+### 4）使用wifi时，画面周期性卡顿
 出现在使用intel网卡wifi的情况下。
 需要将网卡属性“Global BG scan blocking”设置为“always”.
 确保不会应为周期性wifi热点扫描降低连接性能。

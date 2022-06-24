@@ -95,8 +95,12 @@ GFE默认会添加支持串流的游戏，并且可以添加任何程序
 
 ### 4）使用wifi时，画面周期性卡顿
 如果 客户端使用windows PC，且使用intel网卡的情况下。 
+
+
 需要将WiFi适配器的设备管理器属性中 “全局 BG 扫描阻止” 设置为 “始终”。
 确保不会应为周期性wifi热点扫描降低连接性能。
+
+
 [原始issue](https://github.com/moonlight-stream/moonlight-qt/issues/739) 
 
 ### 5）其他问题

@@ -94,7 +94,7 @@ GFE默认会添加支持串流的游戏，并且可以添加任何程序
 ![](https://github.com/sheldonl3/Playing-strategy/blob/master/Moonlight_Config/GPU加速.png)
 
 ### 4）使用wifi时，画面周期性卡顿
-如果 客户端使用windows PC，且使用intel网卡的情况下。 
+排除网络质量问题，如果 客户端 使用windows PC，且使用intel网卡的情况下。 
 
 
 需要将WiFi适配器的设备管理器属性中 “全局 BG 扫描阻止” 设置为 “始终”。

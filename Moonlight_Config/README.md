@@ -85,8 +85,15 @@ GFE默认会添加支持串流的游戏，并且可以添加任何程序
 ![](https://github.com/sheldonl3/Playing-strategy/blob/master/Moonlight_Config/更新IP.png)
 
 ### 2）开机后无法连接
-配置都正确的前提下，开机后无法连接，主机卡在Windows登录界面。  
-推测主机没有登录的情况下，某些Nvidia进程没有启动导致。目前只能改为本地账户，取消开机密码来解决。
+参考b站up主[仓鼠跳跳糖](https://www.bilibili.com/read/cv20207852?spm_id_from=333.999.0.0)
+将系统中的：
+- NVDisplay.ContainerLocalSystem 
+- NVIDIA LocalSystem Container  
+这2个服务，启动类型改成自动  
+![](https://github.com/sheldonl3/Playing_strategy/blob/master/Moonlight_Config/%E5%BC%80%E6%9C%BA1.png)
+![](https://github.com/sheldonl3/Playing_strategy/blob/master/Moonlight_Config/%E5%BC%80%E6%9C%BA2.png)  
+并且在登录一栏中将最上面两个选项都勾选，完成后点击确定保存，重启电脑。之后每次开机后在登录界面可以正常连接了。  
+![](https://github.com/sheldonl3/Playing_strategy/blob/master/Moonlight_Config/%E5%BC%80%E6%9C%BA3.png)
 
 ### 3）画面卡死、游戏闪退
 排除网络带宽问题，将Windows的GPU硬件加速关闭。  
@@ -101,13 +108,22 @@ GFE默认会添加支持串流的游戏，并且可以添加任何程序
 确保不会应为周期性wifi热点扫描降低连接性能。
 
 
-[原始issue](https://github.com/moonlight-stream/moonlight-qt/issues/739) 
+[原始issue](https://github.com/moonlight-stream/moonlight-qt/issues/739)   
 
-### 5）其他问题
+### 5）鼠标速度很奇怪，不跟手
+根据官方的解释，GeForce Experience在启动一个新会话的时候会自动对鼠标速度和鼠标加速做一些默认设置，而且没有办法阻止GeForce Experience不进行配置。
+如果客户端未开启鼠标加速，而远程一端开启了加速，则远程的鼠标体验就会变得很差，用MAC或Linux平台远程的时候问题最明显。[原始issue](https://github.com/moonlight-stream/moonlight-qt/issues/730)  
+因此需要对两端进行配置统一，可以在远程之后，手动关闭远程端的“鼠标加速选项”来解决。  
+![](https://github.com/sheldonl3/Playing_strategy/blob/master/Moonlight_Config/%E9%BC%A0%E6%A0%87.png)  
+推荐一个小工具，双击运行就可以关闭鼠标加速 [accelSwitch](https://github.com/jan-glx/accelSwitch)
+
+
+### 6）其他问题
 可以去[discord](https://moonlight-stream.org/discord)的moonlight社区去问，那里有热心老外给你解答。  
 
 
 部分内容参考moonlight文档和[b站专栏](https://www.bilibili.com/read/cv6333264?from=search)
 
-### 5）未解决的问题
+### 6）未解决的问题
 #### （1）如何通过公网同时远程多台电脑
+如果其他电脑没有游戏需求，开个3389，用RDP吧

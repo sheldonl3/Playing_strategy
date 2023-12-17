@@ -8,7 +8,7 @@
 
 
 ## 二、插件安装与配置
-#### 1.在路由器的Koolshare 软件中心安装 DDNSTO
+#### 1.在路由器的Koolshare软件中心安装DDNSTO
 ![](https://github.com/sheldonl3/Playing-strategy/blob/master/DDNSTO_NAT/ddnsto_install.png)
 #### 2.登录官网-[控制台](https://www.ddnsto.com/app/#/devices)拿到token
 ![](https://github.com/sheldonl3/Playing-strategy/blob/master/DDNSTO_NAT/token.png)

@@ -31,4 +31,4 @@
 #### 用HTTP协议访问可以忽略上面的这个问题：http://download.kooldns.cn:5000/ 这个就可以直接访问了，不需要手动补齐
 #### 4.成功添加后请稍等1分钟左右，通过访问绑定的域名即可访问。
 
-#### 本教程参考[易有云文档](https://doc.linkease.com/zh/guide/ddnsto/#%E5%AE%89%E8%A3%85%E4%B8%89%E6%AD%A5%E8%B5%B0)
+#### 本教程参考[易有云文档] (https://doc.linkease.com/zh/guide/ddnsto/#%E5%AE%89%E8%A3%85%E4%B8%89%E6%AD%A5%E8%B5%B0)
